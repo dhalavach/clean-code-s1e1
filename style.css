@@ -5,40 +5,40 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.main-image-container {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.main-image-container__image {
     width: 100%;
 }
 
-.aaa .more_inf {
+.main-image-container__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-    .aaa {
+    .main-image-container {
         text-align: center;
     }
 }
 
-.centered-main-page-element {
+.app-container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
 
-.task {
+.app-container__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
 
-.task-row-wrapper {
+.app-container__task-row-wrapper  {
     display: flex;
 }
 
@@ -149,7 +149,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul.app-container__completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
