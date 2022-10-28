@@ -35,7 +35,7 @@
 .app-container__task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .app-container__task-row-wrapper  {
@@ -136,7 +136,7 @@ label[for='new-task'] {
 }
 
 .app-container__input-text {
-    width: 226px
+    width: 226px;
 }
 
 .delete img {
@@ -158,7 +158,7 @@ ul.app-container__completed-tasks label {
 /* Edit Task */
 
 .app-container__list-element input[type=text] {
-    display: none
+    display: none;
 }
 
 ul li.edit-mode input[type=text] {
